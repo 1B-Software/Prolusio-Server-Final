@@ -1,0 +1,53 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    padding: 0;
+}
+
+.heading {
+    background-image: url("/Prolusio\ Server/res/heading.jpg");
+    background-size: cover;
+    background-position: 0%;
+
+    height: 15vw;
+    max-height: 300px;
+
+    border: 2px #505050 solid;
+
+    transition: 1s all;
+}
+
+.headTitle {
+    position: relative;
+    top: 50%;
+    transform: translateY(-100%);
+   
+    font-size: 4vw;
+
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    transition: 1s all;
+}
+
+.partition {
+    border: 2px #505050 solid;
+
+    padding: 100px;
+}
+
+.partitionText {
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .headTitle {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .partition {
+        padding: 5vw;
+    }
+}
