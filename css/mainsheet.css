@@ -2,6 +2,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
     padding: 0;
+
+    color: #909090;
 }
 
 .heading {
@@ -12,8 +14,6 @@ body {
     background-position: 0%;
     height: 15vw;
     max-height: 300px;
-
-    border: 0px #505050 solid;
 
     transition: 1s all;
 }
@@ -46,17 +46,29 @@ body {
     height: 50px;
 
     background-color: aliceblue;
-
-    gap: 20px;
     justify-content: center;
+    
+    transition: 1s all;
 }
 .toolbar div {
+    line-height: 50px;
+    padding: 0px 10px;
     
+    transition: 1s all;
 }
 .toolbar div:hover {
     background-color: #E1E9F1;
+    padding: 5px;
+    transition: .5s all;
 }
-.toolbar a { text-decoration: none; }
+.toolbar a { 
+    padding: 15px 10px;
+    text-decoration: none;
+}
+.toolbar a:active {
+    text-decoration: none;
+    color: inherit;
+}
 
 .container {
     display: flex;
