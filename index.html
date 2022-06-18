@@ -12,14 +12,59 @@
     
     <!-- I DONT REMEMBER MUCH OF HTML FUCK! -->
 
-    <div class="heading">
+    <header class="heading">
         <h1 class="headTitle">Prolusio Interactive</h1>
+    </header>
+
+    <style>
+        #aboutUs {
+            background: rgb(139, 130, 171);
+            /* background: linear-gradient(180deg, rgba(70,62,199,1) 0%, rgba(86,94,245,1) 30%, rgba(0,212,255,1) 100%); */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #aboutUsStyle {
+            display: flex;
+            align-content: space-around;
+        }
+
+        .container {
+            align-content: flex-end;
+            flex-flow: row;
+            gap: 20px;
+        }
+
+        .container div {
+            /* border: 1px black solid; */
+            width: 300px;
+        }
+
+        .container p {
+            font-size: 25px;
+        }
+    </style>
+
+    <div class="toolbar">
+        <div><a href="home.html">HOME</a></div>
+        <div><a href="products.html">PRODUCTS</a></div>
+        <div><a href="help.html">HELP</a></div>
     </div>
 
-    <div class="partition">
-        <div class="partitionText">
-            <h1 style="text-align: center;">HELLO!</h1>
-            <p>Welcome to this bullshit! <br> What can I say??</p>
+    <div id="aboutUs">
+        <div class="container">
+            <div></div>
+            <div style="width: 1000px;">
+                <h1 style="color: wheat; text-shadow: 0px 0px 10px black;">About Us</h1>
+                <p style="color: white; text-shadow: 0px 0px 10px black;">
+                    Prolusio Interactive is an indie team that specifies in building technology based mostly on entertainment. 
+                    <br><br>
+                    We make custom render engines and games for you to play, tools for working, and films.
+                    <br><br>
+                </p>
+            </div>
+            <div style="background-image: url(./res/ProlusioTrans.png);"><img src="./res/ProlusioTrans.png" alt="" width="325px"></div>
+            <div></div>
         </div>
     </div>
 

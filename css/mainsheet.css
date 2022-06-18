@@ -5,22 +5,23 @@ body {
 }
 
 .heading {
-    background-image: url("/Prolusio\ Server/res/heading.jpg");
+    overflow: hidden;
+    
+    background-image: url(../res/AboutUsBG.jpg);
     background-size: cover;
     background-position: 0%;
-
     height: 15vw;
     max-height: 300px;
 
-    border: 2px #505050 solid;
+    border: 0px #505050 solid;
 
     transition: 1s all;
 }
 
 .headTitle {
     position: relative;
-    top: 50%;
-    transform: translateY(-100%);
+    top: 30%;
+    transform: translateY(-10%);
    
     font-size: 4vw;
 
@@ -38,6 +39,28 @@ body {
 
 .partitionText {
     font-size: 20px;
+}
+
+.toolbar {
+    display: flex;
+    height: 50px;
+
+    background-color: aliceblue;
+
+    gap: 20px;
+    justify-content: center;
+}
+.toolbar div {
+    
+}
+.toolbar div:hover {
+    background-color: #E1E9F1;
+}
+.toolbar a { text-decoration: none; }
+
+.container {
+    display: flex;
+    padding: 100px 0px;
 }
 
 @media only screen and (min-width: 1000px) {
