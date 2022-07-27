@@ -5,18 +5,23 @@ body {
 
     color: #909090;
 }
+body a {
+    color: cadetblue;
+}
 
-.heading {
+#heading {
     overflow: hidden;
-    
+
     background-image: url(../res/AboutUsBG.jpg);
-    background-size: cover;
-    background-position: 0%;
+    background-size: 130%;
+    background-repeat: repeat;
+    background-position: center;
     height: 15vw;
     max-height: 300px;
 
-    transition: 1s all;
+    transition: 0.1s all;
 }
+#heading h1 {filter: blur(0px);}
 
 .headTitle {
     position: relative;
